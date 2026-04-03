@@ -5,10 +5,10 @@
 [English README →](README.md)
 
 <p align="center">
-  <img src="img/luva-overview.svg" alt="Luva: yakalama dosyaları analizörden geçerek JSON, HTML, CSV, GraphML ve harita çıktılarına dönüşür" width="780"/>
+  <img src="img/main.png" alt="Luva etkileşimli HTML raporu — Executive sekmesi, KPI kartları ve grafikler" width="900"/>
 </p>
 
-<p align="center"><em>Şekil: pasif PCAP/PCAPNG girdileri çevrimdışı analiz edilir; CLI çalıştırmaları zaman damgalı JSON, etkileşimli HTML, CSV dilimleri, GraphML ve isteğe bağlı iletişim haritası / NDJSON üretir.</em></p>
+<p align="center"><em>Şekil: üretilen HTML raporunda Executive özeti (KPI’lara tıklayınca detay). Luva PCAP/PCAPNG’yi çevrimdışı analiz eder; CLI ayrıca JSON, CSV, GraphML ve isteğe bağlı iletişim haritası / NDJSON üretir.</em></p>
 
 ## Ne yapar?
 
@@ -228,7 +228,7 @@ mypy luva
 | Yerel / derleme gürültüsü | [`.gitignore`](.gitignore) |
 | Otomatik test ve lint | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) |
 | Katkı ve güvenlik | [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md) |
-| README görseli | [`img/luva-overview.svg`](img/luva-overview.svg) |
+| README ekran görüntüsü | [`img/main.png`](img/main.png) |
 
 ## Geliştirici
 

@@ -5,10 +5,10 @@
 [Türkçe README →](README.tr.md)
 
 <p align="center">
-  <img src="img/luva-overview.svg" alt="Luva: capture files flow through the analyzer to JSON, HTML, CSV, GraphML, and map exports" width="780"/>
+  <img src="img/main.png" alt="Luva interactive HTML report — Executive tab with KPI cards and charts" width="900"/>
 </p>
 
-<p align="center"><em>Figure: passive PCAP/PCAPNG inputs are analyzed offline; CLI runs emit timestamped JSON, interactive HTML, CSV slices, GraphML, and optional communication-map / NDJSON artifacts.</em></p>
+<p align="center"><em>Figure: Executive summary in the generated HTML report (click KPIs for drill-down). Luva analyzes PCAP/PCAPNG offline; CLI runs also emit JSON, CSV, GraphML, and optional communication-map / NDJSON exports.</em></p>
 
 ## What it does
 
@@ -228,7 +228,7 @@ mypy luva
 | Ignore local / build noise | [`.gitignore`](.gitignore) |
 | Automated tests & lint | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) |
 | Contributor & security notes | [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md) |
-| Overview diagram (README) | [`img/luva-overview.svg`](img/luva-overview.svg) |
+| README screenshot | [`img/main.png`](img/main.png) |
 
 ## Author
 
